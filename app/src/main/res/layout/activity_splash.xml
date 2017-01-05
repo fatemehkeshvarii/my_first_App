@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">//all of height=wrap_content or by number can be constant
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:alpha="0.5"
+
+        />
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orintetion="vertical" >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/picture1" />
+    </LinearLayout>
+</FrameLayout>
