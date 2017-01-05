@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">//all of height=wrap_content or by number can be constant
+    android:layout_height="match_parent">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,11 +14,48 @@
     <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:orintetion="vertical" >
+       android:orientation="vertical" >
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_marginTop="64dp"
             android:src="@drawable/picture1" />
+        <textViwe
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@strings/splash_page_text"
+            android:textSize="@dimen/splash_text_size"
+            android:textColor="@colors/splashColor"
+            android:Layout_gravity="center_horizental"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:origentation="horizental"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/splash_button_height">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#34aca2"
+                android:text="I'm new"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#355154"
+                android:text="Log in"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+
+
+        </LinearLayout>
+
     </LinearLayout>
+
 </FrameLayout>
