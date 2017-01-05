@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mkh"
+        android:scaleType="centerCrop"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WELLCOME"
+            android:layout_gravity="center_horizontal"
+            android:textSize="32dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background=""
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="64dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background=""
+        android:inputType="numberPassword"
+        android:hint="Passwordl"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="16dp"/>
+    
+    </FrameLayout>
